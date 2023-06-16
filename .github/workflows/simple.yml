@@ -4,10 +4,10 @@ jobs:
   Checking-Job:
     runs-on: ubuntu-latest
     steps:
-      -name: Entering step 1
-       run: echo "Hello world"
-      -name: Ending step 1
-       run: echo "Bye World"
+      -name: Print Greeting
+       run: echo "Hellow there!"
+      -name: Print Ending
+       run: echo "Bye"
       
     
  
